@@ -1,0 +1,30 @@
+{
+  "name": "bankin_test",
+  "version": "1.0.0",
+  "description": "Test Technique for Bankin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "node_modules/.bin/eslint .",
+    "lint-fix": "node_modules/.bin/eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soufyaneMahjoubi/Bankin_test.git"
+  },
+  "author": "Soufyane Mahjoubi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soufyaneMahjoubi/Bankin_test/issues"
+  },
+  "homepage": "https://github.com/soufyaneMahjoubi/Bankin_test#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "qs": "^6.9.4"
+  }
+}
